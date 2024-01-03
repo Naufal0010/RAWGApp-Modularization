@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A00DED2E2B3DAB9C0042368A /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = A00DED2D2B3DAB9C0042368A /* Game */; };
+		A00E0BA52B450D4500383E12 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = A00E0BA42B450D4500383E12 /* Game */; };
+		A00E0BA82B450D6400383E12 /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = A00E0BA72B450D6400383E12 /* Detail */; };
+		A00E0BAA2B450D7200383E12 /* Game in Resources */ = {isa = PBXBuildFile; fileRef = A00E0BA92B450D7200383E12 /* Game */; };
+		A00E0BAC2B450D7C00383E12 /* Favorite in Resources */ = {isa = PBXBuildFile; fileRef = A00E0BAB2B450D7C00383E12 /* Favorite */; };
+		A00E0BAE2B450D8500383E12 /* Detail in Resources */ = {isa = PBXBuildFile; fileRef = A00E0BAD2B450D8500383E12 /* Detail */; };
+		A00E0BB12B450DD100383E12 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = A00E0BB02B450DD100383E12 /* Favorite */; };
+		A00E0BB92B450F0600383E12 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = A00E0BB82B450F0600383E12 /* Core */; };
 		A04ADF552B01BD840062EB3A /* RAWG-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A04ADF542B01BD840062EB3A /* RAWG-info.plist */; };
 		A04ADF602B030ED20062EB3A /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04ADF5F2B030ED20062EB3A /* Injection.swift */; };
 		A04ADF642B03117B0062EB3A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04ADF632B03117B0062EB3A /* HomeRouter.swift */; };
@@ -34,23 +40,18 @@
 		A08961902B07088E005B57BB /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = A089618F2B07088E005B57BB /* Shimmer */; };
 		A08961922B070A1B005B57BB /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08961912B070A1B005B57BB /* ShimmerView.swift */; };
 		A08961942B0740B9005B57BB /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08961932B0740B9005B57BB /* NetworkMonitor.swift */; };
-		A09D7AC02B3C073100370E1D /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = A09D7ABF2B3C073100370E1D /* Core */; };
-		A09D7AC22B3C074000370E1D /* Core in Resources */ = {isa = PBXBuildFile; fileRef = A09D7AC12B3C074000370E1D /* Core */; };
-		A09D7AC52B3C076200370E1D /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = A09D7AC42B3C076200370E1D /* Detail */; };
-		A09D7AC72B3C076E00370E1D /* Detail in Resources */ = {isa = PBXBuildFile; fileRef = A09D7AC62B3C076E00370E1D /* Detail */; };
 		A0A297242B0DA04600236C84 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A297232B0DA04600236C84 /* SearchBar.swift */; };
 		A0AA452D2B0CC576008765A6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA452C2B0CC576008765A6 /* ProfileView.swift */; };
 		A0AA45302B0CEC84008765A6 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = A0AA452F2B0CEC84008765A6 /* RichText */; };
-		A0B596952B3C07B000824DEA /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = A0B596942B3C07B000824DEA /* Game */; };
-		A0B596982B3C07C300824DEA /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = A0B596972B3C07C300824DEA /* Favorite */; };
-		A0B5969A2B3C07D000824DEA /* Game in Resources */ = {isa = PBXBuildFile; fileRef = A0B596992B3C07D000824DEA /* Game */; };
-		A0B5969C2B3C07DB00824DEA /* Favorite in Resources */ = {isa = PBXBuildFile; fileRef = A0B5969B2B3C07DB00824DEA /* Favorite */; };
 		A0F5886E2B0F3BFE001D480A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5886D2B0F3BFE001D480A /* FavoriteView.swift */; };
 		A0F588732B0F3DFB001D480A /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F588722B0F3DFB001D480A /* FavoriteRouter.swift */; };
 		A0F588752B0F3F2A001D480A /* FavoriteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F588742B0F3F2A001D480A /* FavoriteRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00E0BA92B450D7200383E12 /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = ../Modules/Game; sourceTree = "<group>"; };
+		A00E0BAB2B450D7C00383E12 /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Favorite; path = ../Modules/Favorite; sourceTree = "<group>"; };
+		A00E0BAD2B450D8500383E12 /* Detail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Detail; path = ../Modules/Detail; sourceTree = "<group>"; };
 		A04ADF542B01BD840062EB3A /* RAWG-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAWG-info.plist"; sourceTree = "<group>"; };
 		A04ADF5F2B030ED20062EB3A /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 		A04ADF632B03117B0062EB3A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -72,12 +73,8 @@
 		A089618A2B060369005B57BB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A08961912B070A1B005B57BB /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		A08961932B0740B9005B57BB /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
-		A09D7AC12B3C074000370E1D /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Modules/Core; sourceTree = "<group>"; };
-		A09D7AC62B3C076E00370E1D /* Detail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Detail; path = ../Modules/Detail; sourceTree = "<group>"; };
 		A0A297232B0DA04600236C84 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		A0AA452C2B0CC576008765A6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		A0B596992B3C07D000824DEA /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = ../Modules/Game; sourceTree = "<group>"; };
-		A0B5969B2B3C07DB00824DEA /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Favorite; path = ../Modules/Favorite; sourceTree = "<group>"; };
 		A0F5886D2B0F3BFE001D480A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		A0F588722B0F3DFB001D480A /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
 		A0F588742B0F3F2A001D480A /* FavoriteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRow.swift; sourceTree = "<group>"; };
@@ -88,17 +85,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B596952B3C07B000824DEA /* Game in Frameworks */,
 				A0AA45302B0CEC84008765A6 /* RichText in Frameworks */,
 				A08961902B07088E005B57BB /* Shimmer in Frameworks */,
 				A06242BD2AFCB09A00A1FF3D /* Alamofire in Frameworks */,
+				A00E0BB92B450F0600383E12 /* Core in Frameworks */,
 				A089618D2B060400005B57BB /* CachedAsyncImage in Frameworks */,
-				A0B596982B3C07C300824DEA /* Favorite in Frameworks */,
-				A00DED2E2B3DAB9C0042368A /* Game in Frameworks */,
 				A06242C02AFCB16800A1FF3D /* CachedAsyncImage in Frameworks */,
-				A09D7AC02B3C073100370E1D /* Core in Frameworks */,
+				A00E0BB12B450DD100383E12 /* Favorite in Frameworks */,
+				A00E0BA82B450D6400383E12 /* Detail in Frameworks */,
+				A00E0BA52B450D4500383E12 /* Game in Frameworks */,
 				A06242BA2AFCB04700A1FF3D /* RealmSwift in Frameworks */,
-				A09D7AC52B3C076200370E1D /* Detail in Frameworks */,
 				A06242B82AFCB04700A1FF3D /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,10 +347,9 @@
 		A0B421D02B310EAD00B75B12 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				A0B5969B2B3C07DB00824DEA /* Favorite */,
-				A0B596992B3C07D000824DEA /* Game */,
-				A09D7AC62B3C076E00370E1D /* Detail */,
-				A09D7AC12B3C074000370E1D /* Core */,
+				A00E0BAD2B450D8500383E12 /* Detail */,
+				A00E0BAB2B450D7C00383E12 /* Favorite */,
+				A00E0BA92B450D7200383E12 /* Game */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -398,11 +393,10 @@
 				A089618C2B060400005B57BB /* CachedAsyncImage */,
 				A089618F2B07088E005B57BB /* Shimmer */,
 				A0AA452F2B0CEC84008765A6 /* RichText */,
-				A09D7ABF2B3C073100370E1D /* Core */,
-				A09D7AC42B3C076200370E1D /* Detail */,
-				A0B596942B3C07B000824DEA /* Game */,
-				A0B596972B3C07C300824DEA /* Favorite */,
-				A00DED2D2B3DAB9C0042368A /* Game */,
+				A00E0BA42B450D4500383E12 /* Game */,
+				A00E0BA72B450D6400383E12 /* Detail */,
+				A00E0BB02B450DD100383E12 /* Favorite */,
+				A00E0BB82B450F0600383E12 /* Core */,
 			);
 			productName = RAWGApp;
 			productReference = A062428B2AFC6D4900A1FF3D /* RAWGApp.app */;
@@ -438,10 +432,10 @@
 				A06242BE2AFCB16700A1FF3D /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 				A089618E2B07088E005B57BB /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 				A0AA452E2B0CEC84008765A6 /* XCRemoteSwiftPackageReference "RichText" */,
-				A09D7ABE2B3C073100370E1D /* XCLocalSwiftPackageReference "../Modules/Core" */,
-				A09D7AC32B3C076200370E1D /* XCLocalSwiftPackageReference "../Modules/Detail" */,
-				A0B596932B3C07B000824DEA /* XCLocalSwiftPackageReference "../Modules/Game" */,
-				A0B596962B3C07C300824DEA /* XCLocalSwiftPackageReference "../Modules/Favorite" */,
+				A00E0BA32B450D4500383E12 /* XCLocalSwiftPackageReference "../Modules/Game" */,
+				A00E0BA62B450D6400383E12 /* XCLocalSwiftPackageReference "../Modules/Detail" */,
+				A00E0BAF2B450DD100383E12 /* XCLocalSwiftPackageReference "../Modules/Favorite" */,
+				A00E0BB72B450F0600383E12 /* XCRemoteSwiftPackageReference "RAWGApp-Core-Package" */,
 			);
 			productRefGroup = A062428C2AFC6D4900A1FF3D /* Products */;
 			projectDirPath = "";
@@ -457,13 +451,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B5969A2B3C07D000824DEA /* Game in Resources */,
-				A09D7AC72B3C076E00370E1D /* Detail in Resources */,
 				A06242962AFC6D4C00A1FF3D /* Preview Assets.xcassets in Resources */,
-				A09D7AC22B3C074000370E1D /* Core in Resources */,
+				A00E0BAE2B450D8500383E12 /* Detail in Resources */,
 				A04ADF552B01BD840062EB3A /* RAWG-info.plist in Resources */,
+				A00E0BAA2B450D7200383E12 /* Game in Resources */,
 				A06242932AFC6D4C00A1FF3D /* Assets.xcassets in Resources */,
-				A0B5969C2B3C07DB00824DEA /* Favorite in Resources */,
+				A00E0BAC2B450D7C00383E12 /* Favorite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +625,8 @@
 				DEVELOPMENT_TEAM = P6YQF6ZY5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RAWGApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -661,6 +656,8 @@
 				DEVELOPMENT_TEAM = P6YQF6ZY5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RAWGApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -703,25 +700,29 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		A09D7ABE2B3C073100370E1D /* XCLocalSwiftPackageReference "../Modules/Core" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../Modules/Core;
-		};
-		A09D7AC32B3C076200370E1D /* XCLocalSwiftPackageReference "../Modules/Detail" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../Modules/Detail;
-		};
-		A0B596932B3C07B000824DEA /* XCLocalSwiftPackageReference "../Modules/Game" */ = {
+		A00E0BA32B450D4500383E12 /* XCLocalSwiftPackageReference "../Modules/Game" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../Modules/Game;
 		};
-		A0B596962B3C07C300824DEA /* XCLocalSwiftPackageReference "../Modules/Favorite" */ = {
+		A00E0BA62B450D6400383E12 /* XCLocalSwiftPackageReference "../Modules/Detail" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Modules/Detail;
+		};
+		A00E0BAF2B450DD100383E12 /* XCLocalSwiftPackageReference "../Modules/Favorite" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../Modules/Favorite;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A00E0BB72B450F0600383E12 /* XCRemoteSwiftPackageReference "RAWGApp-Core-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Naufal0010/RAWGApp-Core-Package.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		A06242B62AFCB04600A1FF3D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
@@ -765,9 +766,22 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A00DED2D2B3DAB9C0042368A /* Game */ = {
+		A00E0BA42B450D4500383E12 /* Game */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Game;
+		};
+		A00E0BA72B450D6400383E12 /* Detail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Detail;
+		};
+		A00E0BB02B450DD100383E12 /* Favorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Favorite;
+		};
+		A00E0BB82B450F0600383E12 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00E0BB72B450F0600383E12 /* XCRemoteSwiftPackageReference "RAWGApp-Core-Package" */;
+			productName = Core;
 		};
 		A06242B72AFCB04700A1FF3D /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -799,26 +813,10 @@
 			package = A089618E2B07088E005B57BB /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
 			productName = Shimmer;
 		};
-		A09D7ABF2B3C073100370E1D /* Core */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Core;
-		};
-		A09D7AC42B3C076200370E1D /* Detail */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Detail;
-		};
 		A0AA452F2B0CEC84008765A6 /* RichText */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A0AA452E2B0CEC84008765A6 /* XCRemoteSwiftPackageReference "RichText" */;
 			productName = RichText;
-		};
-		A0B596942B3C07B000824DEA /* Game */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Game;
-		};
-		A0B596972B3C07C300824DEA /* Favorite */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Favorite;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

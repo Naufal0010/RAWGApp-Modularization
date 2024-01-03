@@ -10,12 +10,21 @@
       }
     },
     {
+      "identity" : "rawgapp-core-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Naufal0010/RAWGApp-Core-Package.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0e1fb37c4d00d8aae90d625e35480be570c88106"
+      }
+    },
+    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
       "state" : {
-        "revision" : "c569bec4d04da84030d94f376437bc4efda3686b",
-        "version" : "13.23.1"
+        "revision" : "7227d6a447821c28895daa099b6c7cd4c99d461b",
+        "version" : "13.25.1"
       }
     },
     {
@@ -24,7 +33,7 @@
       "location" : "https://github.com/realm/realm-swift.git",
       "state" : {
         "branch" : "master",
-        "revision" : "6b992e508b1fab07d47775f2fd7485fd5f110893"
+        "revision" : "72a0e6a09c6f355eb760cfdaeebacf612c3ac211"
       }
     },
     {
