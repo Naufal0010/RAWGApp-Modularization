@@ -10,15 +10,6 @@
       }
     },
     {
-      "identity" : "rawgapp-core-package",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Naufal0010/RAWGApp-Core-Package.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "0e1fb37c4d00d8aae90d625e35480be570c88106"
-      }
-    },
-    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
